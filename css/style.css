@@ -4,6 +4,19 @@
 }
 
 body{
-    background-image: url('img/bg.png');
-    background-size: 100% 100vh;
+    color: white;
+    background-image: url('img/bg.jpg');
+}
+
+.left{
+    border: 2px solid red;
+    display: inline-block;
+}
+.mid{
+    border: 2px solid green;
+    
+}
+.right{
+    display: inline-block;
+    border: 2px solid yellow;
 }
