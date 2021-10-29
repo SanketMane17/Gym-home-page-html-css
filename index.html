@@ -11,16 +11,52 @@
     <div class="header">
         <!-- for logo -->
         <div class="left">
-            I am left
+           <img src="img/logo.jpg" alt="gym logo">
+           <div class="name">SK Fitness</div>
         </div>
         <!-- for navbar -->
         <div class="mid">
-            I am mid
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calcultor</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </div>
         <!-- for buttons -->
         <div class="right">
-            I am right
+           <button class="btn">Call Us</button>
+           <button class="btn">Email Us</button>
         </div>
     </div>
+    <main>
+        <div class="container">
+            <h2>Join the best Gym near you</h2>
+            <form action="backend.php">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="Email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="age" placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="number" placeholder="Enter your mobile number">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="location" placeholder="Enter your location">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="weigth" placeholder="Enter your weigth">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="heigth" placeholder="Enter your heigth">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
