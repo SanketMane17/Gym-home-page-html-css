@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,31 @@
     <title>Sanket's Fitness Club</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="header">
-        <!-- for logo -->
-        <div class="left">
-           <img src="img/logo.jpg" alt="gym logo">
-           <div class="name">SK Fitness</div>
+    <div class="section-1">
+         <div class="header">
+            <!-- for logo -->
+            <div class="left">
+                <img src="img/logo.jpg" alt="gym logo">
+                <div class="name">SK Fitness</div>
+            </div>
+            <!-- for navbar -->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#calc">Fitness Calculator</a></li>
+                </ul>
+            </div>
+            <!-- for buttons -->
+            <div class="right">
+                <button class="btn">Call Us</button>
+                <button class="btn">Email Us</button>
+            </div>
         </div>
-        <!-- for navbar -->
-        <div class="mid">
-            <ul class="navbar">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Fitness Calcultor</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <!-- for buttons -->
-        <div class="right">
-           <button class="btn">Call Us</button>
-           <button class="btn">Email Us</button>
-        </div>
-    </div>
-        <div class="container">
+        <div id="home" class="container">
             <h2>Join the best Gym near you...</h2>
             <form action="backend.php">
                 <div class="form-group">
@@ -56,13 +59,37 @@
                 <button class="btn">Submit</button>
             </form>
         </div>
-        <div class="service">
-            <h1>Services</h1>
-            <div class="content">
-                <img src="img/img1.jpg" alt="first_image">
-                <img src="img/img2.jpg" alt="second_image">
-                <img src="img/img3.jpg" alt="third_image">
+    </div>
+    <div id="about" class="about">
+       <h2 class="nav-content">About Us</h2>
+       <div class="para">
+           <p>Regular exercise helps control weight when use with a balanced diet. Regular physical activity can help you prevent or manage a wide range of health problems and concerns, including stroke, metabolic syndrome, type 2 diabetes, depression, and certain types of cancer, arthritis and falls. Regular training helps reduce stress and improves moods. Regular weight training can improve muscle mass.Facilities can vary greatly from gym to gym. Not just on a broad range of cardiovascular equipment including:
+            Treadmills, Rowers, stationary bikes, cross trainers, versa climbers (step machines), steppers, and rowing machines.
+            Resistance training equipment including:          
+            Fixed weight machines, dumbbells, barbells and weight plates.
+             Also clean toilets, changing and shower rooms and exercise mats, stability balls    andspace to exercise.
+            When choosing your gym you should check there is a number of the equipment you feel you will use more. If you are going to focus on free weight training (dumbbells etc) check they have multiple sets. On weight machines check they have setting from minimal weight to maximum weight to suit your capabilities. Also check have they been maintained and in good condition. If you are going to mainly use of cardio machines again check they have been well maintained, check they have adequate number of machines compared to gym members.
+            Larger gyms also may have studio classes, sports and injury therapy. Sports shop, juice bars, cafe and restaurant. Swimming pool, sauna, Jacuzzi, steam rooms. Tennis, squash and badminton courts. Some gyms also offer child care facilities.</p>
+       </div>
+    </div>
+    <hr>
+    <div id="service" class="service">
+        <h2 class="nav-content">SERVICES</h2>
+        <div class="content">
+            <div>
+                <img src="img/img1.jpg" alt="first_image"><p>Cycling Studio</p>
+            </div>
+            <div>
+                <img src="img/img2.jpg" alt="second_image"><p>Wiegth Lifting</p>
+            </div>
+            <div>
+                <img src="img/img3.jpg" alt="third_image"><p>Skipping</p>
             </div>
         </div>
+    </div>
+    <footer id="footer">
+       SKFintness.com &copyCopyright 2021
+    </footer>
 </body>
+
 </html>
