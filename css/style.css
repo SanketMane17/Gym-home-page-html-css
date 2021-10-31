@@ -9,6 +9,8 @@ body{
     font-family: 'Baloo Bhai 2', cursive;
     color: white;
     background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .left{
@@ -19,7 +21,7 @@ body{
 }
 .left img{
     width: 77px;
-    height: 38px;
+    height: 50px;
     border: 2px solid white;
 }
 .left .name{
@@ -71,8 +73,8 @@ body{
 }
 
 .container{
-    margin: 0px 705px;
-    padding: 75px 85px;
+    margin: 97px 0px 12px 764px;
+    padding: 9px 85px;
     width: 29%;
 }
 .container h2{
@@ -87,8 +89,18 @@ body{
     text-align: center;
     display: block;
     width: 399px;
-    height: 26px;
+    height: 34px;
     margin: 13px auto;
     font-size: 16px;
     font-family: 'Baloo Bhai 2', cursive;
+}
+
+.service{
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 32px 0px;
+}
+.service img{
+    height: 256px;
+    margin: 28px;
 }
