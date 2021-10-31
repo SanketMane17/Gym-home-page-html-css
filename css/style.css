@@ -83,9 +83,6 @@
     padding: 63px 85px;
     width: 29%;
 }
-.container h2{
-    text-align: center;
-}
 .container .btn{
     display: block;
     margin: 25px auto;
@@ -140,6 +137,80 @@
     margin-bottom: 16px;
 }
 
+
+.calc{
+    text-align: center;
+    padding: 32px 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: lightgrey;
+}
+
+form{
+    margin-top: 17px;
+    transform: translate(-38px);
+}
+.calc input,#list{
+    width: 17%;
+    height: 27px;
+    margin: 7px auto;
+    font-size: 16px;
+}
+
+#age,#list{
+    transform: translate(31px);
+}
+#wt{
+    transform: translate(21px);
+}
+#ht{
+    transform: translate(22px);   
+}
+#nk{
+    transform: translate(29px);
+}
+#ws{
+    transform: translate(27px);
+}
+#hip{
+    transform: translate(35px);
+}
+
+.calc-3 p{
+    position: absolute;
+    right: 481px;
+    top: 95px;
+}
+.calc-4 p{
+    position: absolute;
+    right: 453px;
+    top: 138px;
+}
+.calc-5 p{
+    position: absolute;
+    right: 453px;
+    top: 184px;
+}
+.calc-6 p{
+    position: absolute;
+    right: 453px;
+    top: 228px;
+}
+.calc-7 p{
+    position: absolute;
+    right: 453px;
+    top: 271px;
+}
+
+.calc h2{
+    transform: translate(7px);
+}
+
+.calc button{
+    transform: translate(50px,12px);
+    width: 234px;
+    background-color: darkslategray;
+}
+
 footer{
     text-align: center;
     height: 3vh;
@@ -148,3 +219,4 @@ footer{
     color: white;
     font-size: 21px;
 }
+

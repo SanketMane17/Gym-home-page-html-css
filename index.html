@@ -11,7 +11,7 @@
 
 <body>
     <div class="section-1">
-         <div class="header">
+        <div class="header">
             <!-- for logo -->
             <div class="left">
                 <img src="img/logo.jpg" alt="gym logo">
@@ -61,34 +61,82 @@
         </div>
     </div>
     <div id="about" class="about">
-       <h2 class="nav-content">About Us</h2>
-       <div class="para">
-           <p>Regular exercise helps control weight when use with a balanced diet. Regular physical activity can help you prevent or manage a wide range of health problems and concerns, including stroke, metabolic syndrome, type 2 diabetes, depression, and certain types of cancer, arthritis and falls. Regular training helps reduce stress and improves moods. Regular weight training can improve muscle mass.Facilities can vary greatly from gym to gym. Not just on a broad range of cardiovascular equipment including:
-            Treadmills, Rowers, stationary bikes, cross trainers, versa climbers (step machines), steppers, and rowing machines.
-            Resistance training equipment including:          
-            Fixed weight machines, dumbbells, barbells and weight plates.
-             Also clean toilets, changing and shower rooms and exercise mats, stability balls    andspace to exercise.
-            When choosing your gym you should check there is a number of the equipment you feel you will use more. If you are going to focus on free weight training (dumbbells etc) check they have multiple sets. On weight machines check they have setting from minimal weight to maximum weight to suit your capabilities. Also check have they been maintained and in good condition. If you are going to mainly use of cardio machines again check they have been well maintained, check they have adequate number of machines compared to gym members.
-            Larger gyms also may have studio classes, sports and injury therapy. Sports shop, juice bars, cafe and restaurant. Swimming pool, sauna, Jacuzzi, steam rooms. Tennis, squash and badminton courts. Some gyms also offer child care facilities.</p>
-       </div>
+        <h2 class="nav-content">About Us</h2>
+        <div class="para">
+            <p>Regular exercise helps control weight when use with a balanced diet. Regular physical activity can help
+                you prevent or manage a wide range of health problems and concerns, including stroke, metabolic
+                syndrome, type 2 diabetes, depression, and certain types of cancer, arthritis and falls. Regular
+                training helps reduce stress and improves moods. Regular weight training can improve muscle
+                mass.Facilities can vary greatly from gym to gym. Not just on a broad range of cardiovascular equipment
+                including:
+                Treadmills, Rowers, stationary bikes, cross trainers, versa climbers (step machines), steppers, and
+                rowing machines.
+                Resistance training equipment including:
+                Fixed weight machines, dumbbells, barbells and weight plates.
+                Also clean toilets, changing and shower rooms and exercise mats, stability balls andspace to exercise.
+                When choosing your gym you should check there is a number of the equipment you feel you will use more.
+                If you are going to focus on free weight training (dumbbells etc) check they have multiple sets. On
+                weight machines check they have setting from minimal weight to maximum weight to suit your capabilities.
+                Also check have they been maintained and in good condition. If you are going to mainly use of cardio
+                machines again check they have been well maintained, check they have adequate number of machines
+                compared to gym members.
+                Larger gyms also may have studio classes, sports and injury therapy. Sports shop, juice bars, cafe and
+                restaurant. Swimming pool, sauna, Jacuzzi, steam rooms. Tennis, squash and badminton courts. Some gyms
+                also offer child care facilities.</p>
+        </div>
     </div>
-    <hr>
+
     <div id="service" class="service">
         <h2 class="nav-content">SERVICES</h2>
         <div class="content">
             <div>
-                <img src="img/img1.jpg" alt="first_image"><p>Cycling Studio</p>
+                <img src="img/img1.jpg" alt="first_image">
+                <p>Cycling Studio</p>
             </div>
             <div>
-                <img src="img/img2.jpg" alt="second_image"><p>Wiegth Lifting</p>
+                <img src="img/img2.jpg" alt="second_image">
+                <p>Weigth Lifting</p>
             </div>
             <div>
-                <img src="img/img3.jpg" alt="third_image"><p>Skipping</p>
+                <img src="img/img3.jpg" alt="third_image">
+                <p>Skipping</p>
             </div>
         </div>
     </div>
+    <div class="calc" id="calc">
+        <h2 class="nav-content">Calculator</h2>
+        <form action="calculator.php" methos="POST">
+            <div class="calc-1">
+                Age <input type="text" name="age" id="age">
+            </div>
+            <div class="calc-2">
+                sex <select name="sex" id="list">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="calc-3">
+                Weigth <input type="text" name="wt" id="wt"> <p>kg</p>
+            </div>
+            <div class="calc-4">
+                Height <input type="text" name="ht" id="ht"> <p>inches</p>
+            </div>
+            <div class="calc-5">
+                Neck <input type="text" name="nk" id="nk"> <p>inches</p>
+            </div>
+            <div class="calc-6">
+                Waist <input type="text" name="ws" id="ws"> <p>inches</p>
+            </div>
+            <div class="calc-7">
+                Hip <input type="text" name="hip" id="hip"> <p>inches</p>
+            </div>
+
+            <button class="btn">Calculate</button>
+        </form>
+    </div>
     <footer id="footer">
-       SKFintness.com &copyCopyright 2021
+        SKFintness.com &copyCopyright 2021
     </footer>
 </body>
 
